@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    float:left; 
+    width:auto; 
+    height:500px; 
+    background: #FFF; 
+    border: solid 1px #A2A2A2; 
+    margin-right: 5px;
+}
+
+#baloes_inteiros, #baloes_estourados {
+    font-size: 40px;
+}
+
+#cronometro_tam {
+    width: 140px; 
+    height: 132px;
+}
+
+#cronometro_imagem {
+    background: url('imagens/cronometro.png'); 
+    text-align:center
+}
+
+#cronometro {
+    color: red; 
+    font-size: 30px;
+}
+
+#cenario {
+    float: left; 
+    width: 600px; 
+    height: 500px; 
+    background: url('imagens/cenario.png'); 
+    background-position: bottom;
+}
+
+table {
+    border: 0;
+}
